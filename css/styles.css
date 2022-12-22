@@ -390,3 +390,15 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 22px;
 }
+.clients-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
