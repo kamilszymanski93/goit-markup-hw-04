@@ -413,3 +413,30 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+.primary-list-icons > svg {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.team-icons > li:focus,
+.team-icons > li:hover {
+  cursor: pointer;
+  fill: white;
+  background-color: var(--light-blue);
+  border-radius: 50%;
+}
+.team-icons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-top: 16px;
+  gap: 10px;
+}
+.team-icons > li {
+  height: 44px;
+  width: 44px;
+}
