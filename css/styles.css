@@ -77,6 +77,7 @@ body {
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
+  fill: currentColor;
 }
 .nav-contact:hover {
   color: var(--light-blue);
@@ -361,21 +362,13 @@ body {
 .footer-section > address > a:focus {
   color: var(--light-blue);
 }
-.mail-icon {
-  width: 16px;
-  height: 12px;
+.nav-contact > svg {
   margin-right: 10px;
-  color: #757575;
-}
-.smartphone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  color: #757575;
 }
 .footer-icons {
   display: block;
   padding-top: 12px;
+  margin-left: 70px;
 }
 .footer-icons > h3 {
   color: white;
@@ -418,6 +411,11 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   cursor: pointer;
+  fill: #afb1b8;
+}
+.clients-list-item:hover {
+  fill: var(--light-blue);
+  border-color: var(--light-blue);
 }
 .primary-list-icons > svg {
   width: 270px;
@@ -445,4 +443,17 @@ body {
 .team-icons > li {
   height: 44px;
   width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-icons > li > svg {
+  fill: gray;
+}
+
+.team-icons > li:is(:hover, :focus) > svg {
+  fill: white;
+}
+.footer-container {
+  display: flex;
 }
