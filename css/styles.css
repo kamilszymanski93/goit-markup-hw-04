@@ -32,7 +32,7 @@ img {
   line-height: 1.19;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -47,7 +47,7 @@ body {
   padding: 0;
   gap: 46px;
   margin-left: 93px;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
 }
 
 .nav-list a {
@@ -56,7 +56,7 @@ body {
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .nav-list a:focus,
 .nav-list a:hover {
@@ -68,7 +68,7 @@ body {
   display: flex;
   padding: 0;
   gap: 50px;
-  letter-spacing: 0, 02em;
+  letter-spacing: 0.02em;
 }
 
 .nav-contact {
@@ -95,14 +95,14 @@ body {
   font-weight: 900;
   text-align: center;
   margin: 106px 252px 30px;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
 }
 .service > .container > button {
   color: white;
   font-size: 16px;
   line-height: 1.88;
   font-weight: 700;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   cursor: pointer;
   width: 200px;
   height: 50px;
@@ -120,7 +120,7 @@ body {
   font-weight: 400;
   color: #757575;
   line-height: 1.71;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   margin-top: 10px;
 }
 
@@ -130,13 +130,13 @@ body {
   font-size: 14px;
   line-height: 1.17;
   font-weight: 700;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .what-we-do {
   line-height: 1.17;
   font-size: 36px;
   font-weight: 700;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .team-section {
@@ -147,7 +147,7 @@ body {
   line-height: 1.17;
   text-align: center;
   font-weight: 700;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
 .team-names {
@@ -158,7 +158,7 @@ body {
   display: block;
   text-align: center;
   margin-top: 30px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .team-position {
   display: block;
@@ -167,7 +167,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.17;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .footer-section {
   display: flex;
@@ -177,9 +177,9 @@ body {
 .footer-section a {
   display: block;
 }
-.footer-section > address {
+/* .footer-section > address {
   flex-direction: column;
-}
+} */
 .footer-localization {
   text-decoration: none;
   color: white;
@@ -188,7 +188,7 @@ body {
   font-weight: 400;
   font-style: normal;
   margin-bottom: 9px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .footer-mail {
   text-decoration: none;
@@ -198,7 +198,7 @@ body {
   font-weight: 400;
   font-style: normal;
   margin-bottom: 9px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .footer-mail:hover {
   color: var(--light-blue);
@@ -210,7 +210,7 @@ body {
   font-weight: 400;
   font-style: normal;
   margin-bottom: 9px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .footer-mail-portfolio:hover {
   color: var(--light-blue);
@@ -222,7 +222,7 @@ body {
   line-height: 1.71;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .footer-tel:hover {
   color: var(--light-blue);
@@ -288,7 +288,6 @@ body {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
-  letter-spacing: 0, 03em;
   padding: 20px 24px;
   border: 1px solid #eeeeee;
 }
@@ -298,8 +297,7 @@ body {
   line-height: 2;
   font-weight: 700;
   display: block;
-  padding-left: 24px;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .project-type {
   color: #757575;
@@ -307,8 +305,7 @@ body {
   line-height: 1.88;
   font-weight: 400;
   display: block;
-  padding-left: 24px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .box-portfolio {
   display: flex;
@@ -332,7 +329,7 @@ body {
   border-radius: 4px;
   border-style: none;
   padding: 6px 22px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 .portfolio-nav-buttons button:focus,
 .portfolio-nav-buttons button:hover {
@@ -382,12 +379,42 @@ body {
   display: flex;
   margin-top: 20px;
 }
-.footer-icon {
+/* .footer-icon {
   width: 44px;
   height: 44px;
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 22px;
+} */
+.footer-icon > li:focus,
+.footer-icon > li:hover {
+  cursor: pointer;
+  fill: white;
+  background-color: var(--light-blue);
+  border-radius: 50%;
+}
+.footer-icon {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-top: 16px;
+  gap: 10px;
+}
+.footer-icon > li {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-icon > li > svg {
+  fill: white;
+}
+
+.footer-icon > li:is(:hover, :focus) > svg {
+  fill: white;
 }
 .clients-title {
   display: flex;
