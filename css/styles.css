@@ -83,7 +83,6 @@ body {
   color: var(--light-blue);
 }
 .service {
-  background-color: #2f303a;
   background: url("../images/sprite/background-png.png");
   background-position: center;
   background-repeat: no-repeat;
