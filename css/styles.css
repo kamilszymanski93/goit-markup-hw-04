@@ -84,6 +84,9 @@ body {
 }
 .service {
   background-color: #2f303a;
+  background: url("../images/sprite/background-png.png");
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   text-align: center;
