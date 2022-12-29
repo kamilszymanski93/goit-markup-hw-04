@@ -215,7 +215,7 @@ body {
   margin-bottom: 9px;
   letter-spacing: 0.03em;
 }
-.footer-mail:hover {
+.footer-mail:is(:hover, :focus) {
   color: var(--light-blue);
 }
 .footer-mail-portfolio {
@@ -227,7 +227,7 @@ body {
   margin-bottom: 9px;
   letter-spacing: 0.03em;
 }
-.footer-mail-portfolio:hover {
+.footer-mail-portfolio:is(:hover, :focus) {
   color: var(--light-blue);
 }
 .footer-tel {
@@ -239,7 +239,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
-.footer-tel:hover {
+.footer-tel:is(:hover, :focus) {
   color: var(--light-blue);
 }
 .footer-studio {
